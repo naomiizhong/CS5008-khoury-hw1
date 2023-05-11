@@ -9,7 +9,7 @@
  * 
  * The code will compile without changes! Though if you are properly using the -Wall 
  * flag, you will see warnings.
- * /* is a long comment format that can span multiple lines
+ * * is a long comment format that can span multiple lines
 */
 // is  a single line comment
 
