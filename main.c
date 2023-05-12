@@ -28,7 +28,7 @@
 int get_number() // This is a function that returns an int
 {
     int number; // This is a local variable, it is only available within this function
-    printf("Please enter a number:"); // This is a function call, it calls the printf function
+    printf("Please enter a number:\n"); // This is a function call, it calls the printf function
     scanf("%d", &number); // This is a function call, it calls the scanf function, which reads from the command line,
  return number;                         // and stores the value in the number variable
 }
@@ -39,7 +39,7 @@ int get_number() // This is a function that returns an int
 char* get_name() // This is a function that returns a pointer to a char array
 {
     char* name = (char*) malloc(sizeof(char) * 20); // allocating space for a character array
-    printf("Please enter your name:"); // This is a function call, it calls the printf function
+    printf("Please enter your name:\n"); // This is a function call, it calls the printf function
     scanf("%s", name); // This is a function call, it calls the scanf function, which reads from the command line,
                       // and stores the value in the name variable
     return name; // This is a return statement, it returns the value of the name variable, which is a char array
